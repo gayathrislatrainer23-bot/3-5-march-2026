@@ -1,9 +1,9 @@
 function callName(){
 
 }
-// function parent (callName){
-// callName()
-// }
+function parent (callName){
+callName()
+}
 
 
 
@@ -61,3 +61,19 @@ if(num%2 === 0){
 for(let i =1; i<=10;i++){
     console.log(i)
 }
+
+ parent()
+
+
+let isLoggedIn = false;
+let token  = true
+
+if(isLoggedIn  || token){
+    console.log(' you can get access')
+}else{
+    console.log(' access denied')
+}
+
+
+isLoggedIn ?   console.log('ternary  you can get access'):  console.log(' ternary access denied')
+
