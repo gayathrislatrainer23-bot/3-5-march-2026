@@ -61,4 +61,23 @@ while(b<40 && b>=34){
 }
 3. do while --> atleast do
 
+greet()
+
+functions
+
+function greet(){
+   <!-- code -->
+}
+console.log('haii)
+
+greet()
+
+<!-- function declaration -->
+<!-- function expression -->
+
+const greet = function (){
+    <!--  -->
+}
+
+
 
