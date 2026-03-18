@@ -110,6 +110,7 @@
 
 // console.log(oddCount(10));
 
+// day-4
  let arr = [23,34,12,45,67]
 let length = arr.length
 
