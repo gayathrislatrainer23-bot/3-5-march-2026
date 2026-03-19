@@ -95,9 +95,17 @@ sub : (a,b)=>{
 
 // Access and print the science mark.
 
+// array sum fun
 
+const arraySumFunction = (arr)=>{
+let sum = 0;
+for(let i=0 ; i<arr.length;i++){
+    sum += arr[i]
+}
+return sum
+}
 
-
+console.log(arraySumFunction([34,56,7,2]))
 
 
 
