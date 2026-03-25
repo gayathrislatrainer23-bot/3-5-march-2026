@@ -43,6 +43,7 @@ rule
  3. inline -style using {{}}
  4. className instead of class
 
+
  Block-level vs Inline Elements, Common Tags (p, h1-h6, div, span, etc.)
 
 Semantic Tags (header, footer, nav, section, article, aside, main)
@@ -55,3 +56,10 @@ Forms: input types, labels, placeholders, required, basic form validation
 
 Do this in react components
 
+props task:
+
+props Practice
+
+Objective: Pass data between components
+
+Create a component StudentCard that accepts props: name, age, grade.
