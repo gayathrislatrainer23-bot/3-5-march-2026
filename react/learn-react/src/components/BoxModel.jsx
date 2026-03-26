@@ -1,3 +1,4 @@
+import Card from "./Card"
 import Child from "./Child"
 
 const BoxModel = ({num})=>{
@@ -8,6 +9,10 @@ const BoxModel = ({num})=>{
         age: 45,
 
     }
+    let boxDetails = {
+    heading1 : "This is  Box",
+    para  : "this is paragraph in Box"
+}
 // console.log("props",props)
 // console.log("props num",props.num)
 
@@ -16,7 +21,8 @@ const BoxModel = ({num})=>{
         <p>this is a box model</p>
         {/* <p>{props.num}</p> */}
         {/* <p>{num}</p> */}
-        <Child  number ={num} arr ={arr} object={object}/>
+        <Child  number ={num} arr ={arr} object={object} isLoggedIn ={isLoggedIn}/>
+        <Card details = {boxDetails}/>
         </div>
     )
 }
