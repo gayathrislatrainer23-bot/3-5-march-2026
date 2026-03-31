@@ -1,10 +1,14 @@
 import './App.css'
 import AdminDashBoard from './components/AdminDashBoard'
 import BoxModel from './components/BoxModel'
+import CounterApp from './components/CounterApp'
+import ExampleState from './components/ExampleState'
 import Login from './components/Login'
 import Parent from './components/Parent'
 import Register from './components/Register'
 import ShowName from './components/ShowName'
+import StudentList from './components/StudentsList'
+import Vegetables from './components/Vegetables'
 
 function App() {
 let number = 100
@@ -27,16 +31,18 @@ let user = 'client'
 {/* <Parent/> */}
 
 {/* <BoxModel num = {number}/> */}
-{
+{/* {
   statusOfUser === "new" ? <Register/> : <Login/>
   
 }
 {
   user === 'admin' &&  <AdminDashBoard/>  
-}
+} */}
 
-
-
+{/* <StudentList/> */}
+{/* <Vegetables/> */}
+{/* <ExampleState/> */}
+<CounterApp/>
 </div>
   )
 }
