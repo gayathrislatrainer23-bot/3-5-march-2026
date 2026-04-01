@@ -192,6 +192,90 @@ Assignment-state
 
 Create a component of message that show 'Welcome'. when the button clicked show ' you  clicked the button'
 
+lifecycle methods in class comp:
+
+componentDidMount - create
+componentDidUpdate - comp update
+componentWillUnmount - delete from dom 
+
+
+usEffect -- > hook in react -- handling side effect 
+side Effects:
+1. Api calling
+profile comp -->  side effect -- fetch(url) --> 
+2. updating dom
+
+login --> post ---> api
+navigate to dashboard
+--> render --> side effect  --> products api -->
+
+
+useEffect ??
+syntax:
+
+useEffect(()=>{
+  <!-- side effect code -->
+})
+
+case: 1 --> run after all renders
+
+useEffect(()=>{
+  <!-- side effect code -->
+
+})
+
+profile(){
+    useEffect(()=>{
+console.log('profile page is showing)
+
+})
+
+    return(
+
+    )
+}
+
+
+case: 2 --> run after initial render
+
+
+useEffect(()=>{
+  <!-- side effect code -->
+  console.log('profile page  RENDER INITIaly)
+},[])--> dependancy array
+
+dependancy - array - second argument in useEffect
+
+case: 3 --> run after state change   render
+
+const [name, setNAme] =useState("")
+
+useEffect(()=>{
+      console.log('profile page  RENDER INITIaly +props state change)
+
+},[name,age])
+
+
+ console : 1.you are logged in  all  // dashboard
+ alert : 2. the page is loaded   []
+ alert : 3.you are loggedin / you are not loggedin  [state] logout btn 
+
+
+4. Show and Hide Button
+
+show true   child show   flase   : not visible
+
+a. Create a component with content that can be toggled visible or hidden.
+b. Use a button to show or hide the content dynamically.
+
+
+<!-- Life cycle method -->
+
+| Lifecycle | useEffect Version                  |
+| --------- | ---------------------------------- |
+| Mount     | `useEffect(() => {}, [])`          |
+| Update    | `useEffect(() => {}, [state])`     |
+| Unmount   | `return () => {}` inside useEffect |
 
 
 

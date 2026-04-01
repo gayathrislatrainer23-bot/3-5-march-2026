@@ -1,8 +1,11 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 // CounterApp
 function CounterApp() {
     const [count, setCount] = useState(0)
+    useEffect(()=>{
+        console.log('count changed')
+    },[count])
     return (
         <div className="" style={{ width: 50 }}>
             <button onClick={()=>setCount(count+1)}>+</button>

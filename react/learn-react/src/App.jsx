@@ -5,6 +5,7 @@ import CounterApp from './components/CounterApp'
 import ExampleState from './components/ExampleState'
 import Login from './components/Login'
 import Parent from './components/Parent'
+import Profile from './components/Profile'
 import Register from './components/Register'
 import ShowName from './components/ShowName'
 import StudentList from './components/StudentsList'
@@ -42,6 +43,8 @@ let user = 'client'
 {/* <StudentList/> */}
 {/* <Vegetables/> */}
 {/* <ExampleState/> */}
+{/* <CounterApp/> */}
+{/* <Profile/> */}
 <CounterApp/>
 </div>
   )
