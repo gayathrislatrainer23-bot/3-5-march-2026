@@ -258,15 +258,25 @@ useEffect(()=>{
 
  console : 1.you are logged in  all  // dashboard
  alert : 2. the page is loaded   []
- alert : 3.you are loggedin / you are not loggedin  [state] logout btn 
+ alert : 3.you are loggedin / you are not loggedin  [state]  logout btn 
 
 
 4. Show and Hide Button
 
+p comp(
+    show = true / FALSE
+    <!--  -->
+    button click  setshow(!show) 
+
+  show &&  child
+  <!-- show ? CHILD1 : CHILD2 -->
+
+)
 show true   child show   flase   : not visible
 
 a. Create a component with content that can be toggled visible or hidden.
 b. Use a button to show or hide the content dynamically.
+
 
 
 <!-- Life cycle method -->
@@ -279,6 +289,10 @@ b. Use a button to show or hide the content dynamically.
 
 
 
+
+2/4/2026
+
+vite+react
 
 
 

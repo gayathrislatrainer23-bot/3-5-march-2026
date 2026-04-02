@@ -7,6 +7,7 @@ import Login from './components/Login'
 import Parent from './components/Parent'
 import Profile from './components/Profile'
 import Register from './components/Register'
+import Show from './components/Show'
 import ShowName from './components/ShowName'
 import StudentList from './components/StudentsList'
 import Vegetables from './components/Vegetables'
@@ -45,7 +46,8 @@ let user = 'client'
 {/* <ExampleState/> */}
 {/* <CounterApp/> */}
 {/* <Profile/> */}
-<CounterApp/>
+{/* <CounterApp/> */}
+<Show/>
 </div>
   )
 }
