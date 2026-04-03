@@ -21,4 +21,7 @@ react-router-dom
  <!-- select onchange : 
  option value  -->
 
+  controlled and uncontrolled comp
+  
+
 
