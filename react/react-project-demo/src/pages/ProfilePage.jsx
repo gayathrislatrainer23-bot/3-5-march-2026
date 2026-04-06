@@ -11,7 +11,7 @@ img: "https://png.pngtree.com/png-clipart/20230927/original/pngtree-man-avatar-i
 <img src={user.img} alt="image" width={50} height={50} />
 <p><b>Name:</b>{user.name}</p>
 <p><b>email:</b>{user.email}</p>
-<p type='password'><b>password:</b> {user.password}</p>
+{/* <p type='password'><b>password:</b> {user.password}</p> */}
 
         </div>
     )

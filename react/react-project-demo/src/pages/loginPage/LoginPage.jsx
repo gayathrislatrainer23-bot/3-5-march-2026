@@ -13,7 +13,7 @@ const handleSubmit = async (e)=>{
      
        if(res.status === 200){
 //    alert('login success', email)
-navigate('/profile')
+navigate('/profile1')
 
        }  else{
        navigate('/')
