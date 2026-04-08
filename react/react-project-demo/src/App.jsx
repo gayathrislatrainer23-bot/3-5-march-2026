@@ -9,6 +9,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import ProfilePage from './pages/ProfilePage'
 import Home from './pages/Home'
 import Profile from './pages/loginPage/Profile'
+import Counter from './components/Counter'
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
   <Route path='/login' element = {<LoginPage/>} />
   <Route path='/profile' element={<ProfilePage/>} />
   <Route path='/profile1' element={<Profile/>} />
+  <Route path='/counter' element={<Counter/>} />
 </Routes>
 </BrowserRouter>
 
