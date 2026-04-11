@@ -10,6 +10,7 @@ import ProfilePage from './pages/ProfilePage'
 import Home from './pages/Home'
 import Profile from './pages/loginPage/Profile'
 import Counter from './components/Counter'
+import Tailwind from './components/Tailwind'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
 <>
 {/* <Navbar/> */}
 {/* <LoginPage/> */}
+<div className=" bg-sky-200 ">
 
 <BrowserRouter>
 <Navbar/>
@@ -28,8 +30,11 @@ function App() {
   <Route path='/profile' element={<ProfilePage/>} />
   <Route path='/profile1' element={<Profile/>} />
   <Route path='/counter' element={<Counter/>} />
+  <Route path='/t' element={<Tailwind/>} />
 </Routes>
 </BrowserRouter>
+</div>
+
 
 </>
   

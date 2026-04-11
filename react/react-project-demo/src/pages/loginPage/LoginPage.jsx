@@ -25,9 +25,10 @@ navigate('/profile1')
 
 }
     return(
-        <div className="container">
+        <div className="container bg-sky-800 text-amber-100 px-5 mx-20  flex ">
 <form onSubmit={handleSubmit}>
-    <input type="text" value={email} onChange={(e)=>setEmail(e.target.value)}  placeholder="email" />
+ 
+    <input className='w-6' type="text" value={email} onChange={(e)=>setEmail(e.target.value)}  placeholder="email" />
     <input type="password" value={password} onChange={(e)=>setPassword(e.target.value)}  placeholder="password" />
   
     <button type="submit">Login</button>
