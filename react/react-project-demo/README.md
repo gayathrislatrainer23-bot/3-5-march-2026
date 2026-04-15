@@ -24,4 +24,12 @@ react-router-dom
   controlled and uncontrolled comp
   
 
+<!-- Life cycle method -->
+
+| Lifecycle | useEffect Version                  |
+| --------- | ---------------------------------- |
+| Mount     | `useEffect(() => {}, [])`          |
+| Update    | `useEffect(() => {}, [state])`     |
+| Unmount   | `return () => {}` inside useEffect |
+
 
